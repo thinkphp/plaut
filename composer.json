@@ -1,0 +1,8 @@
+{
+    "name": "",
+    "description": "A lightweight mvc micro framework",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    }
+}
