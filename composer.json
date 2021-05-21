@@ -1,8 +1,23 @@
 {
-    "name": "",
-    "description": "A lightweight mvc micro framework",
-    "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.*"
+  "name": "thinkphp/plaut",
+  "type" : "framework",
+  "description": "A lightweight MVC framework for newbies that use LAMP stack",
+  "keywords": ["framework","php","mvc","layer","database","db","abstraction"],
+  "license": "MIT",
+  "version": "v1.6.2",
+
+ "authors": [
+  {
+    "name": "Adrian Statescu",
+    "email": "mergesortv@gmail.com"
+  }
+  ],
+  "require": {
+  "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Truecast\\": "src"
     }
+  }
 }
