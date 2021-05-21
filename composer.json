@@ -4,7 +4,7 @@
   "description": "A lightweight MVC framework for newbies that use LAMP stack",
   "keywords": ["framework","php","mvc","layer","database","db","abstraction"],
   "license": "MIT",
-  "version": "v1.6.2",
+  "version": "1.2.3",
 
  "authors": [
   {
