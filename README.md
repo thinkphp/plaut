@@ -2,6 +2,10 @@
 
 Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a LAMP stack.
 
+## Install
+
+* composer create-project --prefer-dist statescua/plaut php-mvc
+
 ## Requirements
 
 * PHP 7.0 or greater
