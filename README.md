@@ -5,6 +5,9 @@ Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a
 ## Install
 
 * composer create-project --prefer-dist statescua/plaut php-mvc
+* cd php-mvc
+* php -S 0.0.0.0:8080
+* Then go to browser: http://localhost:8080
 
 ## Requirements
 
