@@ -6,6 +6,16 @@
   "license": "MIT",
   "version": "1.2.3",
 
+  "require": {
+    "statescua/plaut":"dev-master@dev"
+  },
+  "repositories": [
+    {
+       "type": "vcs",
+       "url": "https://github.com/thinkphp/plaut" 
+    }
+  ],
+
  "authors": [
   {
     "name": "Adrian Statescu",
