@@ -25,3 +25,4 @@ Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a
 ## Demo:
 
 * https://plaut.thinkphp.repl.co/
+* http://thinkphp.ch/apps/basement/plaut/
