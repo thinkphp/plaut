@@ -1,10 +1,18 @@
 <?php
 
 class Errors extends Controller {
+
+	function __construct()
+	{
+		parent:: __construct();
+	}
+
 	
 	function index()
 	{
-		$this->ctrl404();
+		$templete = $this->loadView("Errors");
+		$templete->render();
+		
 	}
 	
 	function ctrl404()
