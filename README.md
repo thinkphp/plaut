@@ -19,7 +19,6 @@ Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a
 
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
-sudo systemctl restart apache2
 ```
 
 ```
@@ -30,7 +29,13 @@ Require all granted
 </Directory>
 ```
 
+```
+sudo systemctl restart apache2
+```
+
+```
 sudo nano /var/www/html/.htaccess
+```
 
 ## .htaccess
 * RewriteEngine On
