@@ -17,6 +17,12 @@ Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a
 
 ## MOD_REWRITE Apache2
 
+In order for Apache to understand rewrite rules, we first need to activate mod_rewrite. It’s already installed, but it’s disabled on a default Apache installation. Use the a2enmod command to enable the module.
+
+```
+sudo a2enmod rewrite
+```
+
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
