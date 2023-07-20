@@ -15,6 +15,15 @@ Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a
 * MySQL 4.1.2 or greater
 * The mod_rewrite Apache module
 
+## MOD_REWRITE Apache2
+```
+<Directory /var/www/html>
+Options Indexes FollowSymLinks
+AllowOverride All
+Require all granted
+</Directory>
+```
+
 ## .htaccess
 * RewriteEngine On
 * RewriteCond %{REQUEST_FILENAME} !-f
