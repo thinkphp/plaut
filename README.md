@@ -45,10 +45,14 @@ sudo nano /var/www/html/.htaccess
 
 ## .htaccess
 ```
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]
+</IfModule>
+
+# Prevent file browsing
 Options -Indexes
 ```
 
