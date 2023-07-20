@@ -38,11 +38,13 @@ sudo nano /var/www/html/.htaccess
 ```
 
 ## .htaccess
-* RewriteEngine On
-* RewriteCond %{REQUEST_FILENAME} !-f
-* RewriteCond %{REQUEST_FILENAME} !-d
-* RewriteRule . index.php [L]
-* Options -Indexes
+```
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+Options -Indexes
+```
 
 ## Demo:
 
