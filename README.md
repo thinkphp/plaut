@@ -30,6 +30,8 @@ Require all granted
 </Directory>
 ```
 
+sudo nano /var/www/html/.htaccess
+
 ## .htaccess
 * RewriteEngine On
 * RewriteCond %{REQUEST_FILENAME} !-f
