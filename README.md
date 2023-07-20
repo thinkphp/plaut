@@ -18,6 +18,7 @@ Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a
 ## MOD_REWRITE Apache2
 
 sudo nano /etc/apache2/sites-available/000-default.conf
+sudo systemctl restart apache2
 
 ```
 <Directory /var/www/html>
