@@ -1,6 +1,6 @@
 ## Plaut
 
-Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a LAMP stack.
+Lightweight Model-View-Controller Micro PHP Framwork built for newbies who use a LAMP stack. Replit: https://plaut.thinkphp.repl.co/
 
 ## Install
 
@@ -56,7 +56,7 @@ RewriteRule . index.php [L]
 Options -Indexes
 ```
 
-## Demo:
+## Proof:
 
 * https://plaut.thinkphp.repl.co/
 * http://thinkphp.ch/apps/basement/plaut/
